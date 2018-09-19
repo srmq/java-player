@@ -2,3 +2,4 @@ docs/
 classes/
 jars/
 *.class
+.directory
