@@ -181,7 +181,7 @@ public class RangerInterface extends PlayerDevice {
      * Check if range data is available.
      * @return true if ready, false if not ready
      */
-    public boolean isDataReady () {
+    public synchronized boolean isDataReady () {
         if (readyPrdata) {
             readyPrdata = false;
             return true;
